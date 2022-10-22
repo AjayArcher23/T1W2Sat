@@ -11,16 +11,14 @@ header {
     align-items: center;
 } 
 
-header h1 { 
-
-} 
 .logo { 
     background-color: rgb(168, 215, 168); 
     width: 100px; 
     height: 100px; 
     display: flex; 
     justify-content: center; 
-    align-items: center;
+    align-items: center; 
+    margin-top: 5px;
 } 
 .nav-items { 
     padding-left: 15px; 
@@ -36,5 +34,45 @@ header h1 {
     font-size: 1.5rem;
 } 
 .nav-items a:hover{ 
-    background-color:  rgb(168, 215, 168);
+    background-color:  rgb(168, 215, 168); 
+    padding: 5px;
+} 
+
+.footer {  
+    padding-top: 10px;
+    background-color: rgb(127, 178, 127); 
+    display: flex; 
+    flex-direction: row;
+}
+
+.social-media { 
+    display: flex; 
+    justify-content: space-evenly; 
+} 
+
+.social-media img { 
+    width: 75px; 
+    border-radius: 50%; 
+} 
+
+.contact info { 
+    display: flex; 
+    flex-direction: column; 
+
+}
+.main { 
+    padding: 10px;
+}
+
+.pear-option { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+} 
+.pear-option img { 
+    width: 400px; 
+    height: 400px;
+} 
+.img-titles { 
+    color: rgb(127, 178, 127);
 }
