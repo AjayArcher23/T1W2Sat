@@ -42,7 +42,8 @@ header {
     padding-top: 10px;
     background-color: rgb(127, 178, 127); 
     display: flex; 
-    flex-direction: row;
+    flex-direction: row; 
+    justify-content: space-evenly;
 }
 
 .social-media { 
@@ -52,7 +53,7 @@ header {
 
 .social-media img { 
     width: 75px; 
-    border-radius: 50%; 
+    border-radius: 25%; 
 } 
 
 .contact info { 
@@ -75,4 +76,9 @@ header {
 } 
 .img-titles { 
     color: rgb(127, 178, 127);
-}
+} 
+.contact-info { 
+    display: flex; 
+
+} 
+
